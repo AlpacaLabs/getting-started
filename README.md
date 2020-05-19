@@ -22,6 +22,9 @@ You'll need the following:
 * a local Kubernetes cluster (I'm using the one that came w/ Docker for Mac).
 * [Garden](https://garden.io/)
 
+The first repo you'll want to clone is [AlpacaLabs/garden](https://github.com/AlpacaLabs/garden),
+which contains a Makefile for cloning all other repos.
+
 ## Architecture
 One logical application with multiple business functions has been split into several microservices.
 Each microservice has its own database. Some services "depend" on others, for which they use
